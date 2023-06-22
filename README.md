@@ -6,7 +6,7 @@ Esse desafio é muito empolgante principalmente se você nunca trabalhou com a l
 
 Você terá que publicar uma imagem no docker hub. Quando executarmos:
 
-docker run < seu-user>/fullcycle
+docker run alexandrelima658/fullcycle
 
 Temos que ter o seguinte resultado: Full Cycle Rocks!!
 
