@@ -1,7 +1,7 @@
-FROM golang as build
+FROM golang:alpine as build
 
 WORKDIR /cmd/main
-COPY go.mod go.sum ./
+COPY go.mod ./
 
 RUN go mod download
 COPY . .    
